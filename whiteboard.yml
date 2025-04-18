@@ -2,11 +2,12 @@ version: '3.5'
 
 services:
     whiteboard:
-        image: jitsi/excalidraw-backend:21
+        image: tgrl/excalidraw-backend:latest
+        container_name: whiteboard
         restart: ${RESTART_POLICY:-unless-stopped}
         depends_on:
             - web
         networks:
             meet.jitsi:
               aliases:
-                  - whiteboard.meet.jitsi
+                  - ${WHITEBOARD_DOMAIN:-whiteboard.meet.jitsi}
