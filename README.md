@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jitsi Meet on Docker
 
 ![](resources/jitsi-docker.png)
@@ -37,3 +38,6 @@ If you plan to install the jitsi-meet stack on a Kubernetes cluster you can find
 ## TODO
 
 * Builtin TURN server.
+=======
+# commNEUnicate_jitsi_meet
+>>>>>>> f8192b38e9d691eb9f4c9eca96e8632a518249d6
